@@ -8,11 +8,8 @@
 int gausssum(int m, int n);
 
 int main(void) {
-    int sum3 = gausssum(3, 1000); // Find sum of multiples of 3 below 1000
-    int sum5 = gausssum(5, 1000); // Find sum of multiples of 5 below 1000
-    int total = sum3 + sum5; // Calculate sum of multiples of 3 and 5
-
-    printf("The sum of all multiples of 3 or 5 below 1000 is %i \n", total);
+    int sum = gausssum(3, 1000) + gausssum(5, 1000);
+    printf("The sum of all multiples of 3 or 5 below 1000 is %i \n", sum);
     
     return 0;
 }
