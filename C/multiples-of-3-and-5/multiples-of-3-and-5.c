@@ -18,11 +18,12 @@ int main(void) {
 int gausssum(int m, int n){
 
     // Find largest multiple of m within n
-    for(int i = n; i <= n; i--)
+    for(int i = n; i <= n; i--){
         if(i % m == 0){
             n = i;
             break;
         }
+    }
 
     // Gauss Sum = m * x * ((x + 1) / 2), where x = n / m 
     int x = n / m;
