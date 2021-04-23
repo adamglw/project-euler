@@ -10,7 +10,7 @@ bool ispalindrome(int n);
 
 int main(void){
     int upper = 999;
-    int lower = upper + 1 - ((upper + 1) / ((upper + 1) / ((upper + 1) / 10)));
+    int lower = upper + 1 - ((upper + 1) / 10);
 
     for (int i = upper; i >= lower; i--){
         for(int j = upper; j >= lower; j--){
