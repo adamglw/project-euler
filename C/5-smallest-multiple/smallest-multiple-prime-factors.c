@@ -12,5 +12,16 @@
 #include<stdio.h>
 
 int main(void){
+    int i = 20;
+    long product = 1;
+
+    for (int n = 2; n <= i; n++){
+
+    }
 
 }
+
+// Funtion to find prime factor of number n
+int primefactor(int n){
+
+    if (n % 2 == 0)

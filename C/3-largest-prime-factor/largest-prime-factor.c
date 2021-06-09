@@ -12,16 +12,16 @@ int main(void){
     long long product = 1;
 
     // Prime factors perfecty divide number
-    for(int n = 2; n <= 32000; n++){
+    for (int n = 2; n <= 32000; n++){
         // Exit if n exceeds int memory allocation
-        if(n == 32000){
+        if (n == 32000){
             printf("Largest prime factor of %lli is too large.\n", number);
             return 1;
         }
-        if(isprime(n) == true){
-            if(number % n == 0){
+        if (isprime(n) == true){
+            if (number % n == 0){
                 product = product * n;
-                if(product == number){
+                if (product == number){
                     printf("Largest prime factor of %lli is %i.\n", number, n);
                     break;
                 }
