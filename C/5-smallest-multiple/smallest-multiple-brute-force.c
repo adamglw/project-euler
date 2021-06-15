@@ -27,6 +27,6 @@ int main(void){
 
 /* Obviously, this is a rather lazy brute force approach and isn't scalable.
  * A more thoughtful solution would be to find the prime factors of each
- * integer we seek to divide by and multiple these primes together to find
+ * integer we seek to divide by and multiply these primes together to find
  * the smallest positive number evently divisible by all of them. 
  */
